@@ -45,6 +45,9 @@ fixed.put(label, 100, 30)
 # Add button
 button = Button.new("Okay!")
 button.set_size(80, 26)
+button.signal_connect("button-press-event") do |widget, event|
+  Gtk.main_quit
+end
 fixed.put(button, 130, 90)
 
 window.add(fixed)
