@@ -4,7 +4,7 @@ require 'thread'
 timer = Thread.new do
   Ten_Minutes = 60 * 10
   while true
-    puts "Checking email..."
+    #puts "Checking email..."
     unread = `./unread.oas`
     if unread.to_i > 0
       cmd = "ruby notify.rb --mail_count=" + unread
