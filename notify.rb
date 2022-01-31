@@ -44,8 +44,8 @@ fixed.put(label, 100, 30)
 
 # Add button
 button = Button.new("Okay!")
-button.set_size(50, 26)
-fixed.put(button, 150, 90)
+button.set_size(80, 26)
+fixed.put(button, 130, 90)
 
 window.add(fixed)
 

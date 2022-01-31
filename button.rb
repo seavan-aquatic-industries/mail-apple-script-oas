@@ -37,7 +37,7 @@ class Button < Gtk::DrawingArea
     context.set_source_rgb(0.55, 0.95, 0.26)
     roundrect(context, 0, 0, @width, @height, 5)
     context.fill()
-    context.move_to(7, 18)
+    context.move_to(20, 18)
     context.set_source_rgb(1.0, 1.0, 1.0)
     context.set_font_size(14)
     context.show_text(@text)
