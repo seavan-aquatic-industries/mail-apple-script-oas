@@ -1,20 +1,19 @@
 require "gtk3"
+require 'thread'
 
-header = Gtk::HeaderBar.new
-header.show_close_button = true
-#header.show_maximize_button = false
-#header.show_minimize_button = false
-header.title = "New Mail"
-header.has_subtitle = false
+timer = Thread.new do
+  Ten_Minutes = 4 #60 * 10
+  while true
+    unread = `./unread.oas`
+    if unread.to_i > 0
+      cmd = "ruby notify.rb --mail_count=" + unread
+      `#{cmd}`
+    end
+    sleep Ten_Minutes
+  end
+end
 
-window = Gtk::Window.new("First example")
-window.set_size_request(350, 250)
-window.set_border_width(10)
-window.set_position(Gtk::WindowPosition::CENTER_ALWAYS)
-window.titlebar = header
-window.resizable = false
+while true
+  sleep 5
+end
 
-window.signal_connect("delete-event") { |_widget| Gtk.main_quit }
-window.show_all
-
-Gtk.main

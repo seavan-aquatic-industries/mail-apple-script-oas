@@ -1,0 +1,13 @@
+#!/usr/bin/osascript
+# How to run: chmod +x unread.oas && ./unread.oas
+on run
+  tell application "Mail"
+    set unread to 0
+    repeat with theAccount in (every account)
+       repeat with theBox in (every mailbox of theAccount)
+           set unread to unread + (count (messages in theBox where read status is false))
+       end repeat
+    end repeat
+  end tell
+  return unread
+end run
