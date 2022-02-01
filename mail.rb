@@ -1,4 +1,3 @@
-require "gtk3"
 require 'thread'
 
 timer = Thread.new do
@@ -7,7 +6,7 @@ timer = Thread.new do
     #puts "Checking email..."
     unread = `./unread.oas`
     if unread.to_i > 0
-      cmd = "ruby notify.rb --mail_count=" + unread
+      cmd = "/Users/rkt/ruby/mail/objc/notify/DerivedData/notify/Build/Products/Release/notify.app/Contents/MacOS/notify " + unread
       pid = spawn(cmd)
       Process.wait pid
     end
