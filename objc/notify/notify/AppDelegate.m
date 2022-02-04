@@ -22,6 +22,8 @@
     NSString *text = [NSString stringWithFormat:@"Match! You have %@ new mail!", mails];
     self.notice.stringValue = text;
     NSBeep();
+    [self.window makeKeyAndOrderFront:nil];
+    [self.window setLevel:NSStatusWindowLevel];
 }
 
 
