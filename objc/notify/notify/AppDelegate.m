@@ -19,7 +19,7 @@
     // Insert code here to initialize your application
     NSArray *arguments = [[NSProcessInfo processInfo] arguments];
     NSString *mails = [arguments objectAtIndex:1];
-    NSString *text = [NSString stringWithFormat:@"Match! You have %@ new mail!", mails];
+    NSString *text = [NSString stringWithFormat:@"MATCH! You have %@ new mail!", mails];
     self.notice.stringValue = text;
     NSBeep();
     [self.window makeKeyAndOrderFront:nil];

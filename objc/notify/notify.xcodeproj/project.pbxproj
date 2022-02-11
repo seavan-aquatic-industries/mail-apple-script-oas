@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C43B50D27B6A51A00F28B90 /* icons8-email-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C43B50C27B6A51700F28B90 /* icons8-email-64.png */; };
 		1C48EF1327A916150037DAF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48EF1227A916150037DAF5 /* AppDelegate.m */; };
 		1C48EF1527A916360037DAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C48EF1427A916360037DAF5 /* Assets.xcassets */; };
 		1C48EF1827A916360037DAF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C48EF1627A916360037DAF5 /* MainMenu.xib */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C43B50C27B6A51700F28B90 /* icons8-email-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-email-64.png"; sourceTree = "<group>"; };
 		1C48EF0E27A916140037DAF5 /* notify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C48EF1127A916150037DAF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C48EF1227A916150037DAF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C43B50B27B6A50000F28B90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C43B50C27B6A51700F28B90 /* icons8-email-64.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		1C48EF0527A916140037DAF5 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		1C48EF1027A916140037DAF5 /* notify */ = {
 			isa = PBXGroup;
 			children = (
+				1C43B50B27B6A50000F28B90 /* Images */,
 				1C48EF2527A92A4B0037DAF5 /* Yahoo Buttons */,
 				1C48EF1127A916150037DAF5 /* AppDelegate.h */,
 				1C48EF1227A916150037DAF5 /* AppDelegate.m */,
@@ -154,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C48EF1527A916360037DAF5 /* Assets.xcassets in Resources */,
+				1C43B50D27B6A51A00F28B90 /* icons8-email-64.png in Resources */,
 				1C48EF1827A916360037DAF5 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

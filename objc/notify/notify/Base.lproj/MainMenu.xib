@@ -689,8 +689,22 @@
                 <rect key="frame" x="0.0" y="0.0" width="437" height="210"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Mj-mG-eeq">
+                        <rect key="frame" x="18" y="94" width="401" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Match!" id="4M3-tw-i4z">
+                            <font key="font" size="21" name="CourierNewPS-BoldMT"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saq-XG-tfZ">
+                        <rect key="frame" x="194" y="142" width="48" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icons8-email-64" id="aUG-f0-mAl"/>
+                    </imageView>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q65-Xb-GtD" customClass="YHButtonRed">
-                        <rect key="frame" x="178" y="18" width="80" height="23"/>
+                        <rect key="frame" x="178" y="27" width="80" height="23"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundTextured" title="OKAY!" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8Wm-YE-XiR" customClass="YHButtonCellRed">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -700,18 +714,12 @@
                             <action selector="okay:" target="Voe-Tx-rLC" id="U1s-s1-5iZ"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Mj-mG-eeq">
-                        <rect key="frame" x="18" y="101" width="401" height="44"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Match!" id="4M3-tw-i4z">
-                            <font key="font" size="21" name="CourierNewPS-BoldMT"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                 </subviews>
             </view>
             <point key="canvasLocation" x="178.5" y="325"/>
         </window>
     </objects>
+    <resources>
+        <image name="icons8-email-64" width="64" height="64"/>
+    </resources>
 </document>
