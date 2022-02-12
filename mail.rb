@@ -15,6 +15,6 @@ timer = Thread.new do
 end
 
 while true
-  sleep 5
+  sleep 60
 end
 
