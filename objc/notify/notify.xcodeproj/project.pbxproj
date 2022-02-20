@@ -17,6 +17,7 @@
 		1C48EF3227A92A600037DAF5 /* YHButtonWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48EF2827A92A600037DAF5 /* YHButtonWhite.m */; };
 		1C48EF3327A92A600037DAF5 /* YHButtonRed.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48EF2B27A92A600037DAF5 /* YHButtonRed.m */; };
 		1C48EF3427A92A600037DAF5 /* YHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48EF2C27A92A600037DAF5 /* YHTools.m */; };
+		1C5E319F27C27CA800BCD6B8 /* DEFCON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E319E27C27CA700BCD6B8 /* DEFCON.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1C48EF2D27A92A600037DAF5 /* YHButtonCellRed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHButtonCellRed.h; path = "../../../Yahoo Button/YHButtonCellRed.h"; sourceTree = "<group>"; };
 		1C48EF2E27A92A600037DAF5 /* YHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHTools.h; path = "../../../Yahoo Button/YHTools.h"; sourceTree = "<group>"; };
 		1C48EF2F27A92A600037DAF5 /* YHButtonCellWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHButtonCellWhite.h; path = "../../../Yahoo Button/YHButtonCellWhite.h"; sourceTree = "<group>"; };
+		1C5E319E27C27CA700BCD6B8 /* DEFCON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DEFCON.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1C43B50B27B6A50000F28B90 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1C5E319E27C27CA700BCD6B8 /* DEFCON.png */,
 				1C43B50C27B6A51700F28B90 /* icons8-email-64.png */,
 			);
 			path = Images;
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5E319F27C27CA800BCD6B8 /* DEFCON.png in Resources */,
 				1C48EF1527A916360037DAF5 /* Assets.xcassets in Resources */,
 				1C43B50D27B6A51A00F28B90 /* icons8-email-64.png in Resources */,
 				1C48EF1827A916360037DAF5 /* MainMenu.xib in Resources */,
@@ -317,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = notify/notify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -341,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = notify/notify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

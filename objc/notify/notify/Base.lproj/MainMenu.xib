@@ -698,11 +698,6 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saq-XG-tfZ">
-                        <rect key="frame" x="194" y="142" width="48" height="48"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icons8-email-64" id="aUG-f0-mAl"/>
-                    </imageView>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q65-Xb-GtD" customClass="YHButtonRed">
                         <rect key="frame" x="178" y="27" width="80" height="23"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -714,12 +709,17 @@
                             <action selector="okay:" target="Voe-Tx-rLC" id="U1s-s1-5iZ"/>
                         </connections>
                     </button>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="saq-XG-tfZ">
+                        <rect key="frame" x="194" y="136" width="48" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="DEFCON" id="aUG-f0-mAl"/>
+                    </imageView>
                 </subviews>
             </view>
             <point key="canvasLocation" x="178.5" y="325"/>
         </window>
     </objects>
     <resources>
-        <image name="icons8-email-64" width="64" height="64"/>
+        <image name="DEFCON" width="32" height="32"/>
     </resources>
 </document>
